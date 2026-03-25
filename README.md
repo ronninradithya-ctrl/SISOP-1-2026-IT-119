@@ -43,7 +43,7 @@ id,nama,gerbong,usia,kelas
 8,Hadi,2,35,Business
 ```
 
-CSV (Comma-Separated Values) digunakan untuk menyimpan data dalam bentuk tabel sederhana yang mudah dibaca oleh program seperti AWK. Setiap baris pada file ini merepresentasikan satu penumpang, sedangkan setiap kolom dipisahkan oleh tanda koma untuk membedakan atribut seperti id, nama, gerbong, usia, dan kelas. Baris pertama berfungsi sebagai header yang menjelaskan isi dari setiap kolom sehingga memudahkan proses pengolahan data.
+CSV (Comma-Separated Values) digunakan untuk menyimpan data dalam bentuk tabel yang mudah dibaca oleh program seperti AWK. Setiap baris pada file ini merepresentasikan satu penumpang, sedangkan setiap kolom dipisahkan oleh tanda koma untuk membedakan atribut seperti id, nama, gerbong, usia, dan kelas. Baris pertama berfungsi sebagai header yang menjelaskan isi dari setiap kolom sehingga memudahkan proses pengolahan data.
 
 ---
 
@@ -184,7 +184,7 @@ Jumlah penumpang business class ada 4 orang
 Untuk memastikan program aman dari input yang salah:
 
 ```bash
-awk -f KANJ.sh passenger.csv z
+awk -f KANJ.sh passenger.csv f
 ```
 
 Output:
