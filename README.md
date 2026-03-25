@@ -1,5 +1,7 @@
 # SISOP-1-2026-IT-119
-Soal 
+
+Soal 1 – Analisis Data Penumpang KANJ Menggunakan AWK 
+
 ### 1. Persiapan Direktori
 
 Langkah pertama adalah membuat direktori utama untuk praktikum serta sub-direktori untuk soal 1.
@@ -132,7 +134,7 @@ Bagian di atas merupakan isi dari script AWK yang digunakan untuk memproses data
 
 ### 4. Pengujian Program
 
-penajalanan prongram menggunakan perintah:
+pengjalanan prongram menggunakan perintah:
 
 ```bash
 awk -f KANJ.sh passenger.csv a
