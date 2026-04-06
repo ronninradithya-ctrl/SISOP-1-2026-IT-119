@@ -1,5 +1,4 @@
-# SISOP-1-2026-IT-119
-<<<<<<< HEAD
+
 # SISOP-1-2026-IT-119
 # strukdat-java-oop
 =======
